@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.ding.java.remembercost"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <uses-sdk />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!-- 定位权限 -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+
+    <uses-permission
+        android:name="android.permission.WRITE_SETTINGS"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission
+        android:name="android.permission.ACCESS_MOCK_LOCATION"
+        tools:ignore="MockLocation,ProtectedPermissions" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Activity.Activity_Main"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activity.Activity_DatePicker"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar" />
+        <activity
+            android:name=".Activity.Activity_CostRecordList"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar" />
+        <activity
+            android:name=".Activity.Activity_Weather"
+            android:theme="@android:style/Theme.Holo.Light" />
+        <activity android:name=".Activity.BaseActivity" />
+        <activity android:name=".Activity.Activity_EditData" />
+        <activity android:name=".Activity.Activity_PositionRecord" />
+
+        <service android:name=".Service.RCService" />
+
+        <!-- 百度API -->
+        <!-- 百度云盘 -->
+        <meta-data
+            android:name="com.baidu.netdisk.sdk.app_id"
+            android:value="{申请到的APP_ID}" />
+
+        <activity android:name=".yunsdk.BaiduYunEntryActivity" />
+
+        <service
+            android:name="com.baidu.netdisk.sdk.SDKService"
+            android:exported="true" />
+
+        <activity android:name=".Activity.Activity_BaiduNetDisk"></activity>
+    </application>
+
+</manifest>

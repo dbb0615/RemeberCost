@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="title_back_color"> #fff6f6f6 </color>
+    <color name="text_back_color"> #fff6f6f6 </color>
+    <color name="button_back_color"> #ff39ddd5 </color>
+    <color name="default_text_color"> #ff000000 </color>
+    <color name="selected_text">#ffdfdfdf</color>
+
+    <color name="green_text">#ff00ff00</color>
+
+    <color name="button_normal">#6a68bb</color>
+    <color name="button_pressed">#5250b1</color>
+    
+    <color name="list_normal">#f2f2f2</color>
+    <color name="list_selected">#ceca6f</color>
+
+</resources>

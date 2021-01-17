@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/PopupWin_EditRecord"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="left|center_vertical"
+    android:background="@drawable/background_1">
+        <!--android:background="@drawable/background_1"-->
+
+        <Button
+            android:id="@+id/PopupWin_EditRecord_Delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_margin="@dimen/blank_size"
+            android:text="@string/delete"
+            android:textColor="@color/default_text_color"
+            android:textSize="@dimen/text_size"
+            android:background="@drawable/button_delete_selector" />
+
+        <Button
+            android:id="@+id/PopupWin_EditRecord_Edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_margin="@dimen/blank_size"
+            android:text="@string/edit"
+            android:textColor="@color/default_text_color"
+            android:textSize="@dimen/text_size"
+            android:background="@drawable/button_edit_selector" />
+    
+</RelativeLayout>

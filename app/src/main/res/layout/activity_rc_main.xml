@@ -1,0 +1,109 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/blank_size" >
+
+	<include layout="@layout/ip_port"/>
+	<include layout="@layout/edit_data"/>
+        
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/blank_size"
+        android:layout_marginBottom="@dimen/blank_size" >
+
+	    <Button
+	        android:id="@+id/button_save"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:background="@drawable/button_normal_selector"
+	    	android:textSize="@dimen/text_size"
+	    	android:textColor="@color/default_text_color"
+			android:layout_weight="1"
+			android:layout_marginRight="@dimen/blank_size"
+	    	android:text="@string/save" />
+	    <!-- android:background="@color/button_back_color" -->
+
+		<Button
+			android:id="@+id/button_popwin"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:background="@drawable/button_normal_selector"
+			android:textSize="@dimen/text_size"
+			android:textColor="@color/default_text_color"
+			android:layout_weight="1"
+			android:layout_marginRight="@dimen/blank_size"
+			android:text="@string/popwin" />
+
+		<Button
+			android:id="@+id/button_query"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:background="@drawable/button_normal_selector"
+			android:textSize="@dimen/text_size"
+			android:textColor="@color/default_text_color"
+			android:layout_weight="1"
+			android:text="@string/query" />
+   
+    </TableRow>
+
+	<TableRow
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:layout_gravity="center_horizontal"
+		android:layout_marginTop="@dimen/blank_size"
+		android:layout_marginBottom="@dimen/blank_size">
+
+		<Button
+			android:id="@+id/button_weather"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:background="@drawable/button_normal_selector"
+			android:textSize="@dimen/text_size"
+			android:textColor="@color/default_text_color"
+			android:layout_marginRight="@dimen/blank_size"
+			android:layout_weight="1"
+			android:text="@string/weather" />
+
+		<Button
+			android:id="@+id/button_baidu"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:background="@drawable/button_normal_selector"
+			android:textSize="@dimen/text_size"
+			android:textColor="@color/default_text_color"
+			android:layout_weight="1"
+			android:text="@string/baidu" />
+	</TableRow>
+	<TableRow
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:layout_gravity="center_horizontal"
+		android:layout_marginTop="@dimen/blank_size"
+		android:layout_marginBottom="@dimen/blank_size">
+		<Button
+			android:id="@+id/button_sport"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:background="@drawable/button_normal_selector"
+			android:textSize="@dimen/text_size"
+			android:textColor="@color/default_text_color"
+            android:layout_marginRight="@dimen/blank_size"
+			android:layout_weight="1"
+			android:text="@string/sport" />
+		<Button
+			android:id="@+id/button_baiduapi"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:background="@drawable/button_normal_selector"
+			android:textSize="@dimen/text_size"
+			android:textColor="@color/default_text_color"
+			android:layout_weight="1"
+			android:text="@string/baidu_api" />
+	</TableRow>
+
+</TableLayout>

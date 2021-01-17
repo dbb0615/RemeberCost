@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/edit_height"
+    android:orientation="horizontal"
+    android:layout_marginBottom="@dimen/blank_size">
+
+    <AutoCompleteTextView
+        android:id="@+id/ip_port_ip_domain"
+        android:layout_width="@dimen/zero_dp"
+        android:layout_height="@dimen/edit_height"
+        android:layout_weight="5"
+        android:textSize="@dimen/text_size"
+        android:layout_gravity="left"
+        android:background="@color/text_back_color"
+        android:textColor="@color/default_text_color"
+        android:hint="@string/ip_domain" />
+    <AutoCompleteTextView
+        android:id="@+id/ip_port_port"
+        android:layout_width="@dimen/zero_dp"
+        android:layout_height="@dimen/edit_height"
+        android:layout_weight="2"
+        android:inputType="text|number"
+        android:textSize="@dimen/text_size"
+        android:layout_gravity="left"
+        android:background="@color/text_back_color"
+        android:textColor="@color/default_text_color"
+        android:layout_marginLeft="@dimen/blank_size"
+        android:hint="@string/port" />
+</LinearLayout>

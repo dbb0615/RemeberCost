@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center_vertical">
+
+    <include layout="@layout/ip_port" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal|center_vertical">
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_marginRight="@dimen/doubleblank_size"
+            android:layout_marginLeft="@dimen/blank_size">
+
+            <TextView
+                android:id="@+id/dialog_senddata_textview_progress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size"
+                android:gravity="center_horizontal|center_vertical"/>
+
+            <ImageView
+                android:id="@+id/dialog_senddata_imageview_sending"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/processbar_wait" />
+        </FrameLayout>
+        <Button
+            android:id="@+id/dialog_senddata_button_send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_normal_selector"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:text="@string/sendmsg"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/dialog_senddata_textview_errmsg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:gravity="center_horizontal"/>
+
+
+</LinearLayout>

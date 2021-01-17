@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <!--正在加载文字-->
+
+    <!--过滤信息-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/my_costrecord_textview_loading"
+            android:layout_width="295dp"
+            android:layout_height="wrap_content"
+            android:text="@string/loading"
+            android:textColor="@color/green_text"
+            android:textSize="@dimen/double_text_size"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/my_costrecord_export"
+            android:layout_width="119dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/blank_size"
+            android:background="@drawable/button_normal_selector"
+            android:text="@string/export"
+            android:textColor="@color/default_text_color"
+            android:textSize="@dimen/text_size" />
+    </LinearLayout>
+
+    <include layout="@layout/filter_head" />
+
+    <ListView
+        android:id="@+id/my_costrecord_listview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:divider="@color/selected_text"
+        android:dividerHeight="1px"
+        android:fastScrollEnabled="false"
+        android:gravity="center_horizontal">
+        <!-- android:divider="#fffff"  分割线颜色
+		android:dividerHeight="1px"  分割线高度 -->
+    </ListView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/my_costrecord_normal_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/blank_size"
+            android:layout_weight="1"
+            android:background="@drawable/button_normal_selector"
+            android:text="@string/normal"
+            android:textColor="@color/default_text_color"
+            android:textSize="@dimen/text_size" />
+
+        <Button
+            android:id="@+id/my_costrecord_month_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/blank_size"
+            android:layout_weight="1"
+            android:background="@drawable/button_normal_selector"
+            android:text="@string/month"
+            android:textColor="@color/default_text_color"
+            android:textSize="@dimen/text_size" />
+
+        <Button
+            android:id="@+id/my_costrecord_day_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/blank_size"
+            android:layout_weight="1"
+            android:background="@drawable/button_normal_selector"
+            android:text="@string/day"
+            android:textColor="@color/default_text_color"
+            android:textSize="@dimen/text_size" />
+
+        <Button
+            android:id="@+id/my_costrecord_ok"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/blank_size"
+            android:layout_weight="1"
+            android:background="@drawable/button_normal_selector"
+            android:text="@string/ok"
+            android:textColor="@color/default_text_color"
+            android:textSize="@dimen/text_size" />
+
+    </LinearLayout>
+
+</LinearLayout>

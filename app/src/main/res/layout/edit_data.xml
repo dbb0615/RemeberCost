@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/Button_cost_date"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/edit_height"
+        android:textSize="@dimen/text_size"
+        android:layout_gravity="left"
+        android:gravity="left|center_vertical"
+        android:background="@drawable/button_item_selector"
+        android:layout_marginBottom="@dimen/blank_size"
+        android:textColor="@color/default_text_color"
+        android:hint="@string/cost_date" />
+    <!-- android:background="@color/text_back_color"
+    	android:inputType="none" -->
+
+    <Button
+        android:id="@+id/Button_cost_type"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/edit_height"
+        android:textSize="@dimen/text_size"
+        android:layout_gravity="left"
+        android:gravity="left|center_vertical"
+        android:background="@drawable/button_item_selector"
+        android:layout_marginBottom="@dimen/blank_size"
+        android:textColor="@color/default_text_color"
+        android:hint="@string/cost_type" />
+
+    <EditText
+        android:id="@+id/edittext_cost_subtype"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/edit_height"
+        android:textSize="@dimen/text_size"
+        android:layout_gravity="left"
+        android:layout_marginBottom="@dimen/blank_size"
+        android:background="@color/text_back_color"
+        android:textColor="@color/default_text_color"
+        android:hint="@string/cost_subtype" />
+
+    <EditText
+        android:id="@+id/edittext_cost_fee"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/edit_height"
+        android:textSize="@dimen/text_size"
+        android:layout_gravity="left"
+        android:inputType="text|numberSigned"
+        android:layout_marginBottom="@dimen/blank_size"
+        android:background="@color/text_back_color"
+        android:textColor="@color/default_text_color"
+        android:hint="@string/cost_fee" />
+
+    <EditText
+        android:id="@+id/edittext_cost_remarks"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/edit_height"
+        android:textSize="@dimen/text_size"
+        android:layout_gravity="left"
+        android:layout_marginBottom="@dimen/blank_size"
+        android:background="@color/text_back_color"
+        android:textColor="@color/default_text_color"
+        android:hint="@string/cost_remarks" />
+
+</LinearLayout>

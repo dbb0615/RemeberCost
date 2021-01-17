@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="item_bg_normal">#fff6f6f6</drawable>
+    <drawable name="item_bg_selected">#ff39ddd5</drawable>
+
+    <drawable name="background_normal">#fff6f6f6</drawable>
+    <drawable name="background_pressed">#ffe6e6e6</drawable>
+</resources>

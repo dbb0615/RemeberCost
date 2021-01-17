@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal|center_vertical"
+    android:orientation="horizontal" >
+        <!--android:background="@drawable/background_1"-->
+        <Button
+            android:id="@+id/PopupWin_Button_EditSettings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/arrow_right"
+            android:layout_weight="1"
+            android:layout_margin="@dimen/blank_size"/>
+        <Button
+            android:id="@+id/PopupWin_Button_Edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_edit_selector"
+            android:visibility="invisible"
+            android:layout_weight="1"
+            android:layout_margin="@dimen/blank_size"/>
+        <Button
+            android:id="@+id/PopupWin_Button_Delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_delete_selector"
+            android:visibility="invisible"
+            android:layout_weight="1"
+            android:layout_margin="@dimen/blank_size"/>
+        <Button
+            android:id="@+id/PopupWin_Button_Add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_add_selector"
+            android:visibility="invisible"
+            android:layout_weight="1"
+            android:layout_margin="@dimen/blank_size"/>
+        <Button
+            android:id="@+id/PopupWin_Button_Send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_send_selector"
+            android:visibility="invisible"
+            android:layout_weight="1"
+            android:layout_margin="@dimen/blank_size"/>
+    
+</LinearLayout>

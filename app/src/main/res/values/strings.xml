@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RememberCost</string>
+    <string name="app_set">选项</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="null_str">NULL</string>
+
+    <!-- IP地址 -->
+    <string name="ip_domain">IP/域名</string>
+    <string name="port">端口</string>
+
+    <string name="cost_sequence">序号</string>
+    <string name="cost_date">日期</string>
+    <string name="cost_type">类型</string>
+    <string name="cost_subtype">详细分类</string>
+    <string name="cost_fee">费用</string>
+    <string name="cost_remarks">备注</string>
+
+    <string name="save">保存</string>
+    <string name="sendmsg">发送</string>
+    <string name="popwin">更改日期</string>
+    <string name="query">查询</string>
+    <string name="weather">天气预报</string>
+    <string name="baidu">百度一下</string>
+    <string name="sport">运动</string>
+    <string name="baidu_api">百度API</string>
+    <string name="costrecord">消费记录</string>
+    <string name="begin_time">开始时间</string>
+    <string name="end_time">结束时间</string>
+    <string name="select_date">起止时间</string>
+    <string name="select_type">类型</string>
+    <string name="select_text">过滤子类型/备注</string>
+    <string name="subtype_remark">子类型/备注</string>
+
+    <string name="ok">确定</string>
+    <string name="cancel">返回</string>
+    <string name="reset">重置</string>
+    <string name="test">测试</string>
+    <string name="normal">普通</string>
+    <string name="month">月</string>
+    <string name="day">日</string>
+    <string name="export">导出</string>
+    <string name="hide_button">hide</string>
+
+    <!--<drawable name="button_edit_normal">#ffffff</drawable>-->
+    <!--<drawable name="button_edit_pressed">#e9e9e9</drawable>-->
+
+    <string name="Thread_MsgForToast">Thread_MsgForToast</string>
+    <string name="Thread_MsgForToastShort">Thread_MsgForToastShort</string>
+    <string name="Thread_MsgForUpdateProgress">Thread_MsgForUpdateProgress</string>
+    <string name="Thread_MsgForErrorMsg">Thread_MsgForErrorMsg</string>
+    <string name="Thread_MsgForSendDataOver">Thread_MsgForSendDataOver</string>
+
+    <!--天气预报后台更新天气MESSAGE-->
+    <string name="Thread_MsgForShowTextOnView">Thread_MsgForUpWeather</string>
+    <string name="Thread_MsgForUpCityList">Thread_MsgForUpCityList</string>
+    <string name="Thread_MsgForUpCityListOver">Thread_MsgForUpCityListOver</string>
+    <string name="Thread_MsgForUpCurrentWeather">Thread_MsgForUpCurrentWeather</string>
+
+    <!-- 数据库名称 -->
+    <string name="db_name">RememberCost.db</string>
+    <string name="ExportedData_name">ExportedData.txt</string>
+
+    <!-- 消费记录备注按钮 -->
+    <string name="remarks">注</string>
+
+    <!-- 记录列表编辑窗口 -->
+    <string name="delete">删除</string>
+    <string name="edit">编辑</string>
+
+    <string name="sending">正在发送数据…</string>
+    <string name="loading">正在加载数据…</string>
+    <string name="TotalMoney">">"</string>
+    <string name="status">状态…</string>
+    <string name="speed">速度</string>
+    <string name="speed_ms">米每秒</string>
+    <string name="speed_kmh">千米每小时</string>
+    <string name="longitude">经度</string>
+    <string name="latitude">纬度</string>
+
+    <!-- 百度云盘 -->
+    <string name="is_install">是否安装</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 编辑框的高度 -->
+    <dimen name="edit_height">40dp</dimen>
+    <!-- 标题的高度 -->
+    <dimen name="title_height">50dp</dimen>
+    <!-- 字体大小 -->
+    <dimen name="text_size">20sp</dimen>
+    <dimen name="double_text_size">40sp</dimen>
+    <dimen name="number_size">15sp</dimen>
+    <dimen name="text_2blank_size">28dp</dimen>
+    <dimen name="number_2blank_size">23dp</dimen>
+    <!-- 间隔大小 -->
+    <dimen name="sblank_size">2dp</dimen>
+    <dimen name="blank_size">4dp</dimen>
+    <dimen name="doubleblank_size">16dp</dimen>
+    <dimen name="zero_dp">0dp</dimen>
+    <dimen name="radius_size">5dp</dimen>
+
+    <!-- request code 定义 -->
+    <!-- 日期选择activity -->
+    <integer name="requestcode_datepicker">100</integer>
+    <!-- 查询记录activity -->
+    <integer name="requestcode_query">101</integer>
+    <!-- 编辑记录activity -->
+    <integer name="requestcode_editdata">102</integer>
+    <!--无效的费用-->
+    <integer name="invalid_fee">999999</integer>
+    <!--文本最大行数-->
+    <integer name="text_maxline1">1</integer>
+</resources>

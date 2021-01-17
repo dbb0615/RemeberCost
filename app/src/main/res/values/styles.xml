@@ -1,0 +1,55 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+        parent="android:Base.Theme.NoTitleBar"
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.NoTitleBar">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="DatePicker">
+    </style>
+     <!--  底部升起和向下消失效果 -->
+  	<style name="popdown_anim_style">
+    	<item name="android:windowEnterAnimation">@anim/popdown_show</item>
+ 		<!-- 指定显示的动画xml -->
+
+    	<item name="android:windowExitAnimation">@anim/popdown_hiden</item>
+ 		<!-- 指定消失的动画xml -->
+
+        <!-- 半透明状态 -->
+        <item name="android:windowTranslucentStatus">true</item>
+  	</style>
+    <style name="scale_anim_style">
+        <item name="android:windowEnterAnimation">@anim/scale_anim_show</item>
+        <!-- 指定显示的动画xml -->
+
+        <item name="android:windowExitAnimation">@anim/scale_anim_hiden</item>
+        <!-- 指定消失的动画xml -->
+
+        <!-- 半透明状态 -->
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+    <style name="zoom_anim_style">
+        <item name="android:windowEnterAnimation">@anim/zoomin</item>
+        <!-- 指定显示的动画xml -->
+
+        <item name="android:windowExitAnimation">@anim/zoomout</item>
+        <!-- 指定消失的动画xml -->
+
+        <!-- 半透明状态 -->
+        <!--<item name="android:windowTranslucentStatus">true</item>-->
+    </style>
+
+</resources>

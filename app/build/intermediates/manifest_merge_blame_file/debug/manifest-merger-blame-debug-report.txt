@@ -1,0 +1,135 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.ding.java.remembercost"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+7-->E:\xiaoxi\android\Studio Projects\RemeberCost\app\src\main\AndroidManifest.xml:8:5-17
+8        android:minSdkVersion="19"
+8-->E:\xiaoxi\android\Studio Projects\RemeberCost\app\src\main\AndroidManifest.xml:8:5-17
+9        android:targetSdkVersion="26" />
+9-->E:\xiaoxi\android\Studio Projects\RemeberCost\app\src\main\AndroidManifest.xml:8:5-17
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->E:\xiaoxi\android\Studio Projects\RemeberCost\app\src\main\AndroidManifest.xml:10:5-67
+11-->E:\xiaoxi\android\Studio Projects\RemeberCost\app\src\main\AndroidManifest.xml:10:22-64
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->E:\xiaoxi\android\Studio Projects\RemeberCost\app\src\main\AndroidManifest.xml:11:5-81
+12-->E:\xiaoxi\android\Studio Projects\RemeberCost\app\src\main\AndroidManifest.xml:11:22-78
+13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+13-->E:\xiaoxi\android\Studio Projects\RemeberCost\app\src\main\AndroidManifest.xml:12:5-80
+13-->E:\xiaoxi\android\Studio Projects\RemeberCost\app\src\main\AndroidManifest.xml:12:22-77
+14    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+14-->E:\xiaoxi\android\Studio Projects\RemeberCost\app\src\main\AndroidManifest.xml:13:5-75
+14-->E:\xiaoxi\android\Studio Projects\RemeberCost\app\src\main\AndroidManifest.xml:13:22-72
+15    <!-- 定位权限 -->
+16    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+16-->E:\xiaoxi\android\Studio Projects\RemeberCost\app\src\main\AndroidManifest.xml:15:5-81
+16-->E:\xiaoxi\android\Studio Projects\RemeberCost\app\src\main\AndroidManifest.xml:15:22-78
+17    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+17-->E:\xiaoxi\android\Studio Projects\RemeberCost\app\src\main\AndroidManifest.xml:16:5-79
+17-->E:\xiaoxi\android\Studio Projects\RemeberCost\app\src\main\AndroidManifest.xml:16:22-76
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->E:\xiaoxi\android\Studio Projects\RemeberCost\app\src\main\AndroidManifest.xml:17:5-79
+18-->E:\xiaoxi\android\Studio Projects\RemeberCost\app\src\main\AndroidManifest.xml:17:22-76
+19    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+19-->E:\xiaoxi\android\Studio Projects\RemeberCost\app\src\main\AndroidManifest.xml:18:5-76
+19-->E:\xiaoxi\android\Studio Projects\RemeberCost\app\src\main\AndroidManifest.xml:18:22-73
+20    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+20-->E:\xiaoxi\android\Studio Projects\RemeberCost\app\src\main\AndroidManifest.xml:19:5-76
+20-->E:\xiaoxi\android\Studio Projects\RemeberCost\app\src\main\AndroidManifest.xml:19:22-73
+21    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+21-->E:\xiaoxi\android\Studio Projects\RemeberCost\app\src\main\AndroidManifest.xml:21:5-23:47
+21-->E:\xiaoxi\android\Studio Projects\RemeberCost\app\src\main\AndroidManifest.xml:22:9-57
+22    <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" />
+22-->E:\xiaoxi\android\Studio Projects\RemeberCost\app\src\main\AndroidManifest.xml:24:5-26:60
+22-->E:\xiaoxi\android\Studio Projects\RemeberCost\app\src\main\AndroidManifest.xml:25:9-63
+23
+24    <application
+24-->E:\xiaoxi\android\Studio Projects\RemeberCost\app\src\main\AndroidManifest.xml:28:5-70:19
+25        android:allowBackup="true"
+25-->E:\xiaoxi\android\Studio Projects\RemeberCost\app\src\main\AndroidManifest.xml:29:9-35
+26        android:debuggable="true"
+27        android:icon="@drawable/ic_launcher"
+27-->E:\xiaoxi\android\Studio Projects\RemeberCost\app\src\main\AndroidManifest.xml:30:9-45
+28        android:label="@string/app_name"
+28-->E:\xiaoxi\android\Studio Projects\RemeberCost\app\src\main\AndroidManifest.xml:31:9-41
+29        android:testOnly="true"
+30        android:theme="@style/AppTheme" >
+30-->E:\xiaoxi\android\Studio Projects\RemeberCost\app\src\main\AndroidManifest.xml:32:9-40
+31        <activity
+31-->E:\xiaoxi\android\Studio Projects\RemeberCost\app\src\main\AndroidManifest.xml:33:9-41:20
+32            android:name="com.ding.java.remembercost.Activity.Activity_Main"
+32-->E:\xiaoxi\android\Studio Projects\RemeberCost\app\src\main\AndroidManifest.xml:34:13-51
+33            android:label="@string/app_name" >
+33-->E:\xiaoxi\android\Studio Projects\RemeberCost\app\src\main\AndroidManifest.xml:35:13-45
+34            <intent-filter>
+34-->E:\xiaoxi\android\Studio Projects\RemeberCost\app\src\main\AndroidManifest.xml:36:13-40:29
+35                <action android:name="android.intent.action.MAIN" />
+35-->E:\xiaoxi\android\Studio Projects\RemeberCost\app\src\main\AndroidManifest.xml:37:17-69
+35-->E:\xiaoxi\android\Studio Projects\RemeberCost\app\src\main\AndroidManifest.xml:37:25-66
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->E:\xiaoxi\android\Studio Projects\RemeberCost\app\src\main\AndroidManifest.xml:39:17-77
+37-->E:\xiaoxi\android\Studio Projects\RemeberCost\app\src\main\AndroidManifest.xml:39:27-74
+38            </intent-filter>
+39        </activity>
+40        <activity
+40-->E:\xiaoxi\android\Studio Projects\RemeberCost\app\src\main\AndroidManifest.xml:42:9-44:75
+41            android:name="com.ding.java.remembercost.Activity.Activity_DatePicker"
+41-->E:\xiaoxi\android\Studio Projects\RemeberCost\app\src\main\AndroidManifest.xml:43:13-57
+42            android:theme="@android:style/Theme.Holo.Light.NoActionBar" />
+42-->E:\xiaoxi\android\Studio Projects\RemeberCost\app\src\main\AndroidManifest.xml:44:13-72
+43        <activity
+43-->E:\xiaoxi\android\Studio Projects\RemeberCost\app\src\main\AndroidManifest.xml:45:9-47:75
+44            android:name="com.ding.java.remembercost.Activity.Activity_CostRecordList"
+44-->E:\xiaoxi\android\Studio Projects\RemeberCost\app\src\main\AndroidManifest.xml:46:13-61
+45            android:theme="@android:style/Theme.Holo.Light.NoActionBar" />
+45-->E:\xiaoxi\android\Studio Projects\RemeberCost\app\src\main\AndroidManifest.xml:47:13-72
+46        <activity
+46-->E:\xiaoxi\android\Studio Projects\RemeberCost\app\src\main\AndroidManifest.xml:48:9-50:63
+47            android:name="com.ding.java.remembercost.Activity.Activity_Weather"
+47-->E:\xiaoxi\android\Studio Projects\RemeberCost\app\src\main\AndroidManifest.xml:49:13-54
+48            android:theme="@android:style/Theme.Holo.Light" />
+48-->E:\xiaoxi\android\Studio Projects\RemeberCost\app\src\main\AndroidManifest.xml:50:13-60
+49        <activity android:name="com.ding.java.remembercost.Activity.BaseActivity" />
+49-->E:\xiaoxi\android\Studio Projects\RemeberCost\app\src\main\AndroidManifest.xml:51:9-59
+49-->E:\xiaoxi\android\Studio Projects\RemeberCost\app\src\main\AndroidManifest.xml:51:19-56
+50        <activity android:name="com.ding.java.remembercost.Activity.Activity_EditData" />
+50-->E:\xiaoxi\android\Studio Projects\RemeberCost\app\src\main\AndroidManifest.xml:52:9-64
+50-->E:\xiaoxi\android\Studio Projects\RemeberCost\app\src\main\AndroidManifest.xml:52:19-61
+51        <activity android:name="com.ding.java.remembercost.Activity.Activity_PositionRecord" />
+51-->E:\xiaoxi\android\Studio Projects\RemeberCost\app\src\main\AndroidManifest.xml:53:9-70
+51-->E:\xiaoxi\android\Studio Projects\RemeberCost\app\src\main\AndroidManifest.xml:53:19-67
+52
+53        <service android:name="com.ding.java.remembercost.Service.RCService" />
+53-->E:\xiaoxi\android\Studio Projects\RemeberCost\app\src\main\AndroidManifest.xml:55:9-54
+53-->E:\xiaoxi\android\Studio Projects\RemeberCost\app\src\main\AndroidManifest.xml:55:18-51
+54
+55        <!-- 百度API -->
+56        <!-- 百度云盘 -->
+57        <meta-data
+57-->E:\xiaoxi\android\Studio Projects\RemeberCost\app\src\main\AndroidManifest.xml:59:9-61:44
+58            android:name="com.baidu.netdisk.sdk.app_id"
+58-->E:\xiaoxi\android\Studio Projects\RemeberCost\app\src\main\AndroidManifest.xml:60:13-56
+59            android:value="{申请到的APP_ID}" />
+59-->E:\xiaoxi\android\Studio Projects\RemeberCost\app\src\main\AndroidManifest.xml:61:13-41
+60
+61        <activity android:name="com.ding.java.remembercost.yunsdk.BaiduYunEntryActivity" />
+61-->E:\xiaoxi\android\Studio Projects\RemeberCost\app\src\main\AndroidManifest.xml:63:9-66
+61-->E:\xiaoxi\android\Studio Projects\RemeberCost\app\src\main\AndroidManifest.xml:63:19-63
+62
+63        <service
+63-->E:\xiaoxi\android\Studio Projects\RemeberCost\app\src\main\AndroidManifest.xml:65:9-67:39
+64            android:name="com.baidu.netdisk.sdk.SDKService"
+64-->E:\xiaoxi\android\Studio Projects\RemeberCost\app\src\main\AndroidManifest.xml:66:13-60
+65            android:exported="true" />
+65-->E:\xiaoxi\android\Studio Projects\RemeberCost\app\src\main\AndroidManifest.xml:67:13-36
+66
+67        <activity android:name="com.ding.java.remembercost.Activity.Activity_BaiduNetDisk" />
+67-->E:\xiaoxi\android\Studio Projects\RemeberCost\app\src\main\AndroidManifest.xml:69:9-77
+67-->E:\xiaoxi\android\Studio Projects\RemeberCost\app\src\main\AndroidManifest.xml:69:19-65
+68    </application>
+69
+70</manifest>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:layout_gravity="center_vertical|right"
+    android:background="#90000000"
+    android:orientation="vertical">
+    <!--
+    android:background="@drawable/background_1"
+    android:gravity="center_horizontal|center_vertical"-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size"
+                android:text="@string/begin_time"
+                android:gravity="center_horizontal|center_vertical"/>
+            <DatePicker
+                android:id="@+id/dialog_datepicker_begin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:calendarViewShown="false"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size"
+                android:text="@string/end_time"
+                android:gravity="center_horizontal|center_vertical"/>
+            <DatePicker
+                android:id="@+id/dialog_datepicker_end"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:calendarViewShown="false" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/dialog_datepicker_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel"
+            android:textColor="@color/default_text_color"
+            android:background="@drawable/button_normal_selector"
+            android:textSize="@dimen/text_size"
+            android:layout_weight="1"
+            android:layout_marginRight="@dimen/blank_size"/>
+
+        <Button
+            android:id="@+id/dialog_datepicker_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ok"
+            android:textColor="@color/default_text_color"
+            android:background="@drawable/button_normal_selector"
+            android:textSize="@dimen/text_size"
+            android:layout_weight="1"
+            android:layout_marginBottom="@dimen/blank_size"/>
+
+    </LinearLayout>
+
+</LinearLayout>

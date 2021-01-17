@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="E:\xiaoxi\android\Java\Studio Projects\RemeberCost\app\src\main\java\libs\BaiduLBS_AndroidSDK_Lib\BaiduLBS_Android.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="1a2c9d6f493f2a36bbf34db9bd60d2534908f71b">
+        <dex dex="E:\xiaoxi\android\Java\Studio Projects\RemeberCost\app\build\intermediates\pre-dexed\debug\BaiduLBS_Android_d7ff1a8251d22b97d4bafe229d6fc5921d6b1279.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\xiaoxi\android\Java\Android_SDK\extras\android\m2repository\com\android\support\support-annotations\23.1.0\support-annotations-23.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="92e3fc113ec3ee36b64603a38857b95700025633">
+        <dex dex="E:\xiaoxi\android\Java\Studio Projects\RemeberCost\app\build\intermediates\pre-dexed\debug\support-annotations-23.1.0_40ddd2dfc0276fc57e9dae704c5d30b5300817fd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\xiaoxi\android\Java\Studio Projects\RemeberCost\app\src\main\java\libs\pinyin4j-2.5.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ae353005f973da1cd8545b54354504c2503f6865">
+        <dex dex="E:\xiaoxi\android\Java\Studio Projects\RemeberCost\app\build\intermediates\pre-dexed\debug\pinyin4j-2.5.0_65b67b6db2b56569a336ff881af8f566471d6f8e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\xiaoxi\android\Java\Android_SDK\extras\android\m2repository\com\android\support\support-annotations\23.1.0\support-annotations-23.1.0.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="92e3fc113ec3ee36b64603a38857b95700025633">
+        <dex dex="E:\xiaoxi\android\Java\Studio Projects\RemeberCost\app\build\intermediates\transforms\preDex\release\5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\xiaoxi\android\Java\Studio Projects\RemeberCost\app\src\main\java\libs\pinyin4j-2.5.0.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="ae353005f973da1cd8545b54354504c2503f6865">
+        <dex dex="E:\xiaoxi\android\Java\Studio Projects\RemeberCost\app\build\intermediates\transforms\preDex\release\1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\xiaobei\.android\build-cache\5ff1bf15c9913fae5c1648f9306cddbeaea7633b\output\jars\libs\internal_impl-23.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8716243bf04bae8d6c9ca94d27b9a9be7236f0a3">
+        <dex dex="E:\xiaoxi\android\Java\Studio Projects\RemeberCost\app\build\intermediates\pre-dexed\debug\internal_impl-23.1.0_395ba90524b057e6b6318478e38e3fc257d6a8df.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\xiaobei\.gradle\caches\transforms-1\files-1.1\support-v4-23.1.0.aar\33c66776a848d6bcd5ac4039f1e29eb1\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="ddde541c289c8b816a8f8fd6c325d80788c522a6">
+        <dex dex="E:\xiaoxi\android\Java\Studio Projects\RemeberCost\app\build\intermediates\transforms\preDex\release\3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\xiaoxi\android\Java\Studio Projects\RemeberCost\app\src\main\java\libs\pinyin4j-2.5.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ae353005f973da1cd8545b54354504c2503f6865">
+        <dex dex="E:\xiaoxi\android\Java\Studio Projects\RemeberCost\app\build\intermediates\pre-dexed\debug\pinyin4j-2.5.0_65b67b6db2b56569a336ff881af8f566471d6f8e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\xiaoxi\android\Java\Studio Projects\RemeberCost\app\src\main\java\libs\BaiduLBS_AndroidSDK_Lib\BaiduLBS_Android.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="1a2c9d6f493f2a36bbf34db9bd60d2534908f71b">
+        <dex dex="E:\xiaoxi\android\Java\Studio Projects\RemeberCost\app\build\intermediates\pre-dexed\debug\BaiduLBS_Android_d7ff1a8251d22b97d4bafe229d6fc5921d6b1279.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\xiaoxi\android\Java\Studio Projects\RemeberCost\app\src\main\java\libs\BaiduLBS_AndroidSDK_Lib\BaiduLBS_Android.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1a2c9d6f493f2a36bbf34db9bd60d2534908f71b">
+        <dex dex="E:\xiaoxi\android\Java\Studio Projects\RemeberCost\app\build\intermediates\pre-dexed\debug\BaiduLBS_Android_d7ff1a8251d22b97d4bafe229d6fc5921d6b1279.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\xiaoxi\android\Java\Studio Projects\RemeberCost\app\src\main\java\libs\BaiduLBS_AndroidSDK_Lib\BaiduLBS_Android.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="1a2c9d6f493f2a36bbf34db9bd60d2534908f71b">
+        <dex dex="E:\xiaoxi\android\Java\Studio Projects\RemeberCost\app\build\intermediates\transforms\preDex\release\2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\xiaobei\.gradle\caches\transforms-1\files-1.1\support-v4-23.1.0.aar\33c66776a848d6bcd5ac4039f1e29eb1\jars\libs\internal_impl-23.1.0.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="8716243bf04bae8d6c9ca94d27b9a9be7236f0a3">
+        <dex dex="E:\xiaoxi\android\Java\Studio Projects\RemeberCost\app\build\intermediates\transforms\preDex\release\4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\xiaobei\.android\build-cache\5ff1bf15c9913fae5c1648f9306cddbeaea7633b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ddde541c289c8b816a8f8fd6c325d80788c522a6">
+        <dex dex="E:\xiaoxi\android\Java\Studio Projects\RemeberCost\app\build\intermediates\pre-dexed\debug\classes_5b4eae086b54d4138d87b69cf48ff53db53af447.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\xiaoxi\android\Java\Studio Projects\RemeberCost\app\src\main\java\libs\pinyin4j-2.5.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ae353005f973da1cd8545b54354504c2503f6865">
+        <dex dex="E:\xiaoxi\android\Java\Studio Projects\RemeberCost\app\build\intermediates\pre-dexed\debug\pinyin4j-2.5.0_65b67b6db2b56569a336ff881af8f566471d6f8e.jar" />
+    </item>
+
+</items>

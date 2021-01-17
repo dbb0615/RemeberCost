@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="button_back_color"> #ff39ddd5 </color>
+    <color name="button_normal">#6a68bb</color>
+    <color name="button_pressed">#5250b1</color>
+    <color name="default_text_color"> #ff000000 </color>
+    <color name="green_text">#ff00ff00</color>
+    <color name="list_normal">#f2f2f2</color>
+    <color name="list_selected">#ceca6f</color>
+    <color name="selected_text">#ffdfdfdf</color>
+    <color name="text_back_color"> #fff6f6f6 </color>
+    <color name="title_back_color"> #fff6f6f6 </color>
+    <dimen name="blank_size">4dp</dimen>
+    <dimen name="double_text_size">40sp</dimen>
+    <dimen name="doubleblank_size">16dp</dimen>
+    <dimen name="edit_height">40dp</dimen>
+    <dimen name="number_2blank_size">23dp</dimen>
+    <dimen name="number_size">15sp</dimen>
+    <dimen name="radius_size">5dp</dimen>
+    <dimen name="sblank_size">2dp</dimen>
+    <dimen name="text_2blank_size">28dp</dimen>
+    <dimen name="text_size">20sp</dimen>
+    <dimen name="title_height">50dp</dimen>
+    <dimen name="zero_dp">0dp</dimen>
+    <drawable name="background_normal">#fff6f6f6</drawable>
+    <drawable name="background_pressed">#ffe6e6e6</drawable>
+    <drawable name="item_bg_normal">#fff6f6f6</drawable>
+    <drawable name="item_bg_selected">#ff39ddd5</drawable>
+    <integer name="invalid_fee">999999</integer>
+    <integer name="requestcode_datepicker">100</integer>
+    <integer name="requestcode_editdata">102</integer>
+    <integer name="requestcode_query">101</integer>
+    <integer name="text_maxline1">1</integer>
+    <string name="ExportedData_name">ExportedData.txt</string>
+    <string name="Thread_MsgForErrorMsg">Thread_MsgForErrorMsg</string>
+    <string name="Thread_MsgForSendDataOver">Thread_MsgForSendDataOver</string>
+    <string name="Thread_MsgForShowTextOnView">Thread_MsgForUpWeather</string>
+    <string name="Thread_MsgForToast">Thread_MsgForToast</string>
+    <string name="Thread_MsgForToastShort">Thread_MsgForToastShort</string>
+    <string name="Thread_MsgForUpCityList">Thread_MsgForUpCityList</string>
+    <string name="Thread_MsgForUpCityListOver">Thread_MsgForUpCityListOver</string>
+    <string name="Thread_MsgForUpCurrentWeather">Thread_MsgForUpCurrentWeather</string>
+    <string name="Thread_MsgForUpdateProgress">Thread_MsgForUpdateProgress</string>
+    <string name="TotalMoney">">"</string>
+    <string name="app_name">RememberCost</string>
+    <string name="app_set">选项</string>
+    <string name="baidu">百度一下</string>
+    <string name="baidu_api">百度API</string>
+    <string name="begin_time">开始时间</string>
+    <string name="cancel">返回</string>
+    <string name="cost_date">日期</string>
+    <string name="cost_fee">费用</string>
+    <string name="cost_remarks">备注</string>
+    <string name="cost_sequence">序号</string>
+    <string name="cost_subtype">详细分类</string>
+    <string name="cost_type">类型</string>
+    <string name="costrecord">消费记录</string>
+    <string name="day">日</string>
+    <string name="db_name">RememberCost.db</string>
+    <string name="delete">删除</string>
+    <string name="edit">编辑</string>
+    <string name="end_time">结束时间</string>
+    <string name="export">导出</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="hide_button">hide</string>
+    <string name="ip_domain">IP/域名</string>
+    <string name="is_install">是否安装</string>
+    <string name="latitude">纬度</string>
+    <string name="loading">正在加载数据…</string>
+    <string name="longitude">经度</string>
+    <string name="month">月</string>
+    <string name="normal">普通</string>
+    <string name="null_str">NULL</string>
+    <string name="ok">确定</string>
+    <string name="popwin">更改日期</string>
+    <string name="port">端口</string>
+    <string name="query">查询</string>
+    <string name="remarks">注</string>
+    <string name="reset">重置</string>
+    <string name="save">保存</string>
+    <string name="select_date">起止时间</string>
+    <string name="select_text">过滤子类型/备注</string>
+    <string name="select_type">类型</string>
+    <string name="sending">正在发送数据…</string>
+    <string name="sendmsg">发送</string>
+    <string name="speed">速度</string>
+    <string name="speed_kmh">千米每小时</string>
+    <string name="speed_ms">米每秒</string>
+    <string name="sport">运动</string>
+    <string name="status">状态…</string>
+    <string name="subtype_remark">子类型/备注</string>
+    <string name="test">测试</string>
+    <string name="weather">天气预报</string>
+    <style name="AppBaseTheme" parent="android:Theme.NoTitleBar">
+        
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        
+    </style>
+    <style name="DatePicker">
+    </style>
+    <style name="popdown_anim_style">
+    	<item name="android:windowEnterAnimation">@anim/popdown_show</item>
+ 		
+
+    	<item name="android:windowExitAnimation">@anim/popdown_hiden</item>
+ 		
+
+        
+        <item name="android:windowTranslucentStatus">true</item>
+  	</style>
+    <style name="scale_anim_style">
+        <item name="android:windowEnterAnimation">@anim/scale_anim_show</item>
+        
+
+        <item name="android:windowExitAnimation">@anim/scale_anim_hiden</item>
+        
+
+        
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+    <style name="zoom_anim_style">
+        <item name="android:windowEnterAnimation">@anim/zoomin</item>
+        
+
+        <item name="android:windowExitAnimation">@anim/zoomout</item>
+        
+
+        
+        
+    </style>
+</resources>
